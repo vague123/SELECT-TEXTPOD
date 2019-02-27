@@ -1,0 +1,4 @@
+SELECT `fname` FROM `employees` WHERE `fname` LIKE 'j%'
+SELECT * FROM `employees` WHERE `age` ORDER BY `age` ASC;
+SELECT * FROM `employees` WHERE `fname` ORDER BY `salary` DESC;
+SELECT * FROM `employees` WHERE `salary` ORDER BY `fname` DESC;
